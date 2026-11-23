@@ -1,0 +1,1073 @@
+{
+  "seededAt": "2026-11-23T01:20:00Z",
+  "lastCheckedAt": "2026-11-23T01:25:46.851Z",
+  "liveWindowHours": 24,
+  "feeds": [
+    {
+      "id": "digitraffic",
+      "ok": true,
+      "skipped": false,
+      "heard": 782,
+      "matches": 0
+    },
+    {
+      "id": "kystverket",
+      "ok": true,
+      "skipped": false,
+      "heard": 3273,
+      "matches": 0
+    },
+    {
+      "id": "aisstream",
+      "ok": true,
+      "skipped": true,
+      "reason": "AISSTREAM_API_KEY is not set",
+      "heard": 0,
+      "matches": 0
+    }
+  ],
+  "ships": [
+    {
+      "id": "halifax",
+      "name": "HMCS Halifax",
+      "pennant": "FFH 330",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316138000",
+      "position": {
+        "kind": "homeport",
+        "accuracy": "port",
+        "lat": 44.6585556,
+        "lon": -63.5825738,
+        "place": "HMC Dockyard, Halifax",
+        "timestamp": null,
+        "summary": "No current position has been published. The marker is the assigned Atlantic Fleet home port. Public Services and Procurement Canada lists a docking work period at Irving Shipbuilding in Halifax with expected completion in summer 2026, and a June 2025 navy newsletter said the ship was in maintenance until the following year. No completion notice was found. An AIS page for MMSI 316138000, broadcasting as CDN WARSHIP 330, last shows Halifax on 21 November 2022; that broadcast is older than the docking period and is not plotted.",
+        "sources": [
+          {
+            "title": "Halifax-class repair and refit project status",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          },
+          {
+            "title": "Our Navy Today, Volume 8 Issue 4",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/our-navy-today/volume-8-issue-4.html",
+            "publisher": "Royal Canadian Navy"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=44.65856&mlon=-63.58257#map=16/44.65856/-63.58257",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vancouver",
+      "name": "HMCS Vancouver",
+      "pennant": "FFH 331",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316160000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 48.41055,
+        "lon": -123.40889,
+        "place": "Underway near Esquimalt",
+        "timestamp": "2025-12-14T17:16:00Z",
+        "summary": "Last AIS broadcast for MMSI 316160000, identified on the tracker as CDN WARSHIP 331 with call sign CGAR. The report places the ship underway at 5.8 knots just east of Esquimalt after a departure from Victoria. Nothing later was found, so this fix is very old.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316160000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316160000",
+            "publisher": "MyShipTracking"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ville-de-quebec",
+      "name": "HMCS Ville de Québec",
+      "pennant": "FFH 332",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316127000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 48.3708,
+        "lon": -4.51212,
+        "place": "Brest, France",
+        "timestamp": "2026-11-19T17:42:00Z",
+        "summary": "AIS for MMSI 316127000, named NATO WARSHIP 332, reports the ship inside Brest at 0.1 knots. The same page lists earlier calls at Stockholm, Rostock, Den Helder, Aberdeen, Bergen and Reykjavik. National Defence said on 15 July 2026 that she had sailed from Halifax to join Standing NATO Maritime Group One until December 2026. The broadcast dimensions on the tracker are not the ship's real dimensions; the pennant name and the European track are what tie the fix to this ship.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316127000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316127000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Ville de Québec deploys for Operation REASSURANCE",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/07/hmcs-ville-de-quebec-deploys-for-operation-reassurance.html",
+            "publisher": "National Defence"
+          },
+          {
+            "title": "Remembering HMCS Skeena: sailors in Iceland",
+            "url": "https://www.canada.ca/en/department-national-defence/maple-leaf/rcn/2026/11/remembering-hmcs-skeena-rcn-sailors-honour-the-fallen-in-iceland.html",
+            "publisher": "Royal Canadian Navy"
+          }
+        ],
+        "background": "Sailors from the ship were at Viðey, Iceland, on 20 August 2026 during the same deployment. That visit is older than the Brest fix."
+      }
+    },
+    {
+      "id": "toronto",
+      "name": "HMCS Toronto",
+      "pennant": "FFH 333",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316135000",
+      "position": {
+        "kind": "homeport",
+        "accuracy": "port",
+        "lat": 44.6585556,
+        "lon": -63.5825738,
+        "place": "HMC Dockyard, Halifax",
+        "timestamp": null,
+        "summary": "No current position has been published. The marker is the assigned Atlantic Fleet home port. Public Services and Procurement Canada lists a docking work period at Chantier Davie with expected completion in spring 2026. No completion notice was found, so the ship is not plotted at Lévis. AIS for MMSI 316135000, CDN WARSHIP 333, last reported Chantier Davie on 4 May 2022 and is not used as the current pin.",
+        "sources": [
+          {
+            "title": "Halifax-class repair and refit project status",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=44.65856&mlon=-63.58257#map=16/44.65856/-63.58257",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "regina",
+      "name": "HMCS Regina",
+      "pennant": "FFH 334",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316148000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 35.28666,
+        "lon": 139.65457,
+        "place": "Yokosuka, Japan",
+        "timestamp": "2026-11-18T22:51:00Z",
+        "summary": "AIS for MMSI 316148000, named CDN WARSHIP 334, reports the ship inside Yokosuka at 0.1 knots after an arrival at 22:04 UTC the same day. The Crowsnest for November 2026 says Regina had just finished Exercise KEEN SWORD 27 around Japan from 19 to 29 October while deployed on Operation HORIZON, including a replenishment with MV Asterix. The tracker shows a non-standard call sign in the static data, so the link is the MMSI published for Regina and the pennant in the AIS name, read together with that deployment.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316148000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316148000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "The Crowsnest, November 2026",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/the-crowsnest/2026/november.html",
+            "publisher": "Royal Canadian Navy"
+          },
+          {
+            "title": "HMCS Regina (FFH 334)",
+            "url": "https://en.wikipedia.org/wiki/HMCS_Regina_(FFH_334)",
+            "publisher": "Wikipedia"
+          }
+        ],
+        "background": "No return to Esquimalt has been announced. A September news report quoted the commanding officer as expecting a December return; that schedule is not plotted."
+      }
+    },
+    {
+      "id": "calgary",
+      "name": "HMCS Calgary",
+      "pennant": "FFH 335",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316158000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 48.4338,
+        "lon": -123.434,
+        "place": "Esquimalt",
+        "timestamp": "2026-08-28T01:08:00Z",
+        "summary": "AIS for MMSI 316158000, named CDN WARSHIP 335, reports the ship stopped inside Esquimalt. Victoria Shipyards handed the ship back after a docking work period in 2025, and a June 2025 navy note said she was still alongside for maintenance and missed a crew event at Ogden Point. This August fix is the later of those reports.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316158000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316158000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Halifax-class repair and refit project status",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          }
+        ]
+      }
+    },
+    {
+      "id": "montreal",
+      "name": "HMCS Montréal",
+      "pennant": "FFH 336",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316129000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 46.83141,
+        "lon": -71.16453,
+        "place": "Chantier Davie, Lévis",
+        "timestamp": "2025-10-25T01:49:00Z",
+        "summary": "AIS for MMSI 316129000, named CDN WARSHIP 336 with call sign CGAG, reports the ship inside Chantier Davie after an arrival on 25 October 2025. Our Navy Today said she returned from Operation REASSURANCE on 5 June 2025; the Lévis broadcast is later. No departure after that arrival was on the tracker page read on 23 November 2026.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316129000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316129000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Our Navy Today, Volume 8 Issue 4",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/our-navy-today/volume-8-issue-4.html",
+            "publisher": "Royal Canadian Navy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fredericton",
+      "name": "HMCS Fredericton",
+      "pennant": "FFH 337",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316143000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.65782,
+        "lon": -63.58072,
+        "place": "Halifax",
+        "timestamp": "2024-07-19T17:38:00Z",
+        "summary": "Last AIS broadcast for MMSI 316143000, named CDN WARSHIP 337, shows the ship moored in Halifax after a short sail the same afternoon. No later public fix or deployment notice was found. The age of this broadcast is the reason it is marked stale rather than treated as a fresh sighting.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316143000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316143000",
+            "publisher": "MyShipTracking"
+          }
+        ]
+      }
+    },
+    {
+      "id": "winnipeg",
+      "name": "HMCS Winnipeg",
+      "pennant": "FFH 338",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": null,
+      "position": {
+        "kind": "official",
+        "accuracy": "port",
+        "lat": 48.436974,
+        "lon": -123.4169175,
+        "place": "Seaspan Victoria Shipyards, Esquimalt",
+        "timestamp": "2025-06-05T00:00:00Z",
+        "summary": "Public Services and Procurement Canada says the Halifax-class docking contract at Victoria Shipyards is still underway and lists winter 2026 as the expected completion for HMCS Winnipeg. Victoria News reported on 5 June 2025 that Winnipeg was already at that yard. The marker is the shipyard, not a GPS fix. A MMSI sometimes repeated for Winnipeg, 316147000, was broadcasting as CDN WARSHIP 341 when checked, so it is not used.",
+        "sources": [
+          {
+            "title": "Halifax-class repair and refit project status",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          },
+          {
+            "title": "Victoria shipyard completes refit for HMCS Calgary",
+            "url": "https://vicnews.com/2025/06/05/victoria-shipyard-completes-two-year-refit-for-navy-frigate-hmcs-calgary/",
+            "publisher": "Victoria News"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=48.43697&mlon=-123.41692#map=17/48.43697/-123.41692",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "charlottetown",
+      "name": "HMCS Charlottetown",
+      "pennant": "FFH 339",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316130000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.66029,
+        "lon": -63.58017,
+        "place": "Halifax",
+        "timestamp": "2026-11-18T14:55:00Z",
+        "summary": "AIS for MMSI 316130000, named CDN WARSHIP 339 with call sign CGAJ, reports the ship moored in Halifax. National Defence said she returned to Halifax from Operations HORIZON and NEON on 17 August 2026. The November broadcast is the later position.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316130000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316130000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Charlottetown returns from Operations HORIZON and NEON",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/08/hmcs-charlottetown-returns-from-operations-horizon-and-neon.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "st-johns",
+      "name": "HMCS St. John's",
+      "pennant": "FFH 340",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316196000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.65783,
+        "lon": -63.58073,
+        "place": "Halifax",
+        "timestamp": "2026-11-02T18:40:00Z",
+        "summary": "AIS for MMSI 316196000, named CDN WARSHIP 340 with call sign CGAK, reports the ship moored in Halifax after returning from Stavanger on 30 October 2026 and a short harbour sail on 2 November. The tracker's port-call list for this voyage also includes Leith, Belfast, Aberdeen and Bergen. National Defence's December 2025 return from Operation REASSURANCE is an earlier homecoming.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316196000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316196000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS St. John's returns from Operation REASSURANCE",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2025/12/hmcs-st-johns-returns-from-operation-reassurance.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ottawa",
+      "name": "HMCS Ottawa",
+      "pennant": "FFH 341",
+      "shipClass": "Halifax",
+      "role": "Frigate",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316195000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 48.43301,
+        "lon": -123.43232,
+        "place": "Esquimalt",
+        "timestamp": "2026-10-09T18:32:00Z",
+        "summary": "AIS for MMSI 316195000, named CDNWARSHIP341, reports the ship inside Esquimalt at 0.1 knots after arriving from Prince Rupert at 18:14 UTC. National Defence reported the same homecoming that day, at the end of Operations HORIZON and LATITUDE. The tracker also shows Yokosuka in August and Ominato in early September, which matches the published task-group visit.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316195000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316195000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Ottawa returns to Esquimalt",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/his-majestys-canadian-ship-ottawa-returns-to-esquimalt-following-operations-horizon-and-latitude.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harry-dewolf",
+      "name": "HMCS Harry DeWolf",
+      "pennant": "AOPV 430",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316014510",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.66207,
+        "lon": -63.58742,
+        "place": "Halifax",
+        "timestamp": "2026-11-10T19:44:00Z",
+        "summary": "AIS for MMSI 316014510, named CDN WARSHIP 430 with call sign CGBT and IMO 4702503, reports the ship moored in Halifax. Those identifiers match the published particulars for HMCS Harry DeWolf. Operation CARIBBE records an earlier return to Halifax on 21 March 2025.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014510",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316014510",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Operation CARIBBE past deployments",
+            "url": "https://www.canada.ca/en/department-national-defence/services/operations/military-operations/current-operations/operation-caribbe.html",
+            "publisher": "National Defence"
+          },
+          {
+            "title": "HMCS Harry DeWolf",
+            "url": "https://en.wikipedia.org/wiki/HMCS_Harry_DeWolf",
+            "publisher": "Wikipedia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "margaret-brooke",
+      "name": "HMCS Margaret Brooke",
+      "pennant": "AOPV 431",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316014540",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.40493,
+        "lon": -63.11562,
+        "place": "Underway off Nova Scotia",
+        "timestamp": "2026-10-04T19:43:00Z",
+        "summary": "The last latitude and longitude printed for MMSI 316014540, CDN WARSHIP 431, call sign CGMB and IMO 4702515, is this point east of Halifax, underway at 10.2 knots on 4 October 2026. The same page's port-call list records an arrival at Chantier Davie on 9 October 2026 but does not print coordinates for that arrival, so the later yard call is not given its own pin.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014540",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316014540",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Margaret Brooke",
+            "url": "https://en.wikipedia.org/wiki/HMCS_Margaret_Brooke",
+            "publisher": "Wikipedia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "max-bernays",
+      "name": "HMCS Max Bernays",
+      "pennant": "AOPV 432",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316014550",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 47.62627,
+        "lon": -122.38335,
+        "place": "Seattle",
+        "timestamp": "2026-11-20T18:30:00Z",
+        "summary": "AIS for MMSI 316014550, named on the vessel page as MAX BERNAYS and CDN WARSHIP 432, IMO 4702527 and call sign CGBH, reports the ship stopped inside Seattle after an arrival at 17:45 UTC. The page lists a departure from Vancouver on 10 November and an earlier call at Esquimalt. The Crowsnest said an honorary captain visited the ship in North Vancouver on 26 September 2026.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014550",
+            "url": "https://www.myshiptracking.com/vessels/max-bernays-mmsi-316014550-imo-4702527",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "The Crowsnest, November 2026",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/the-crowsnest/2026/november.html",
+            "publisher": "Royal Canadian Navy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "william-hall",
+      "name": "HMCS William Hall",
+      "pennant": "AOPV 433",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316014560",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 25.0843,
+        "lon": -77.35723,
+        "place": "Nassau, Bahamas",
+        "timestamp": "2026-11-20T00:52:00Z",
+        "summary": "AIS for MMSI 316014560, named CDN WARSHIP 433 with IMO 4702539 and call sign CGWH, reports the ship moored in Nassau after an arrival at 00:30 UTC. The page lists Halifax on 8 October, Santo Domingo, and Basseterre before Nassau. No National Defence release was found for this voyage, so the operation name is not stated here. The self-reported AIS destination field read MIL OPS and is not treated as an official tasking.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014560",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316014560",
+            "publisher": "MyShipTracking"
+          }
+        ]
+      }
+    },
+    {
+      "id": "frederick-rolette",
+      "name": "HMCS Frédérick Rolette",
+      "pennant": "AOPV 434",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316014570",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 14.60068,
+        "lon": -61.06077,
+        "place": "Fort-de-France, Martinique",
+        "timestamp": "2026-11-21T14:23:00Z",
+        "summary": "AIS for MMSI 316014570, named CDN WARSHIP 434 with IMO 4702541 and call sign CGFR, reports the ship inside Fort-de-France after an arrival at 14:04 UTC. The page shows St. John's, Newfoundland, from 13 to 16 November and Halifax in October before that. Our Navy Today described ice trials in the Northumberland Strait on 26 February 2026; those are older than this fix.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014570",
+            "url": "https://www.myshiptracking.com/vessels/frederick-rolette-mmsi-316014570-imo-",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Our Navy Today, Volume 9 Issue 3",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/our-navy-today/volume-9-issue-3.html",
+            "publisher": "Royal Canadian Navy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "robert-hampton-gray",
+      "name": "HMCS Robert Hampton Gray",
+      "pennant": "AOPV 435",
+      "shipClass": "Harry DeWolf",
+      "role": "Arctic and offshore patrol vessel",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": "316014580",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 48.43436,
+        "lon": -123.4336,
+        "place": "Esquimalt",
+        "timestamp": "2026-11-17T22:22:00Z",
+        "summary": "AIS for MMSI 316014580, named CDN WARSHIP 435 with IMO 4702553, reports the ship moored in Esquimalt after moving from Victoria the same evening. The track lists Nuuk, Dutch Harbor, Anchorage, Juneau and an Esquimalt arrival on 6 November, matching National Defence's account of the Arctic transfer. The ship was commissioned in Esquimalt on 16 November 2026. This fix is the following day.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316014580",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316014580",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Robert Hampton Gray arrives in Esquimalt",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/hmcs-robert-hampton-gray-participates-in-multiple-arctic-operations-during-historic-coastal-transfer.html",
+            "publisher": "National Defence"
+          },
+          {
+            "title": "Commissioning of HMCS Robert Hampton Gray",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/governor-general-of-canada-presides-over-commissioning-ceremony-of-hmcs-robert-hampton-gray.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nanaimo",
+      "name": "HMCS Nanaimo",
+      "pennant": "MM 702",
+      "shipClass": "Kingston",
+      "role": "Maritime coastal defence vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316113000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.65483,
+        "lon": -63.57833,
+        "place": "Halifax",
+        "timestamp": "2026-11-13T13:20:00Z",
+        "summary": "AIS for MMSI 316113000, named CDN WARSHIP 702 with IMO 9059470, reports the ship stopped in Halifax after a return from St. John's on 11 November 2026. National Defence said in July 2025 that the remaining Kingston-class ships would consolidate in Halifax, and the June 2026 Trident reported Nanaimo there with Yellowknife's crew. This November fix is later.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316113000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316113000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Royal Canadian Navy to pay off Kingston-class vessels",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2025/07/royal-canadian-navy-to-pay-off-kingston-class-vessels.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "edmonton",
+      "name": "HMCS Edmonton",
+      "pennant": "MM 703",
+      "shipClass": "Kingston",
+      "role": "Maritime coastal defence vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316141000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.65503,
+        "lon": -63.57627,
+        "place": "Halifax",
+        "timestamp": "2026-11-05T14:30:00Z",
+        "summary": "AIS for MMSI 316141000, named CDN WARSHIP 703 with IMO 9059482 and call sign CGAW, reports the ship moored in Halifax after an arrival from Funchal at 14:14 UTC. National Defence reported the same day that Edmonton and Moncton had returned from Standing NATO Mine Countermeasures Group One. The Crowsnest dated that return 30 October; the news release and this broadcast use 5 November.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316141000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316141000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Moncton and Edmonton return from NATO mine countermeasures",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/royal-canadian-navy-ships-return-to-canada-following-nato-mine-countermeasures-mission-in-europe.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "moncton",
+      "name": "HMCS Moncton",
+      "pennant": "MM 708",
+      "shipClass": "Kingston",
+      "role": "Maritime coastal defence vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316294000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.65465,
+        "lon": -63.57729,
+        "place": "Halifax",
+        "timestamp": "2026-11-05T14:04:00Z",
+        "summary": "AIS for MMSI 316294000, named NATO WARSHIP 708, reports the ship moored in Halifax after an arrival from Copenhagen at 13:57 UTC. National Defence reported on 5 November 2026 that Moncton and Edmonton had returned from the NATO mine-countermeasures deployment. The Crowsnest dated the return 30 October; the news release and this broadcast use 5 November.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316294000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316294000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "Moncton and Edmonton return from NATO mine countermeasures",
+            "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/royal-canadian-navy-ships-return-to-canada-following-nato-mine-countermeasures-mission-in-europe.html",
+            "publisher": "National Defence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "victoria",
+      "name": "HMCS Victoria",
+      "pennant": "SSK 876",
+      "shipClass": "Victoria",
+      "role": "Submarine",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": null,
+      "position": {
+        "kind": "official",
+        "accuracy": "port",
+        "lat": 48.4365507,
+        "lon": -123.4248898,
+        "place": "Esquimalt Graving Dock",
+        "timestamp": "2023-05-01T00:00:00Z",
+        "summary": "Public Services and Procurement Canada says HMCS Victoria entered an extended docking work period in May 2023, with completion expected in 2027, under the Victoria-class contract that carries out this work at Esquimalt Graving Dock. A November 2026 industry report still described Victoria as in deep maintenance. The marker is that dock, not a GPS fix. Submarines are not given an MMSI here because they do not broadcast positions for this map.",
+        "sources": [
+          {
+            "title": "Victoria-class in-service support",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          },
+          {
+            "title": "Canada's submarine availability",
+            "url": "https://www.shephardmedia.com/news/naval-warfare/canadas-submarine-availability-under-pressure-as-chicoutimi-unlikely-to-return-to-front-line-duties/",
+            "publisher": "Shephard"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=48.43655&mlon=-123.42489#map=16/48.43655/-123.42489",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "windsor",
+      "name": "HMCS Windsor",
+      "pennant": "SSK 877",
+      "shipClass": "Victoria",
+      "role": "Submarine",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": null,
+      "position": {
+        "kind": "official",
+        "accuracy": "port",
+        "lat": 44.6585556,
+        "lon": -63.5825738,
+        "place": "Fleet Maintenance Facility Cape Scott, Halifax",
+        "timestamp": "2025-09-16T00:00:00Z",
+        "summary": "Babcock Canada's chief executive told Esprit de Corps, published 16 September 2025, that the company was supporting HMCS Windsor's extended docking work period at Fleet Maintenance Facility Cape Scott in Halifax. A 3 November 2026 report said Windsor was still in deep maintenance and did not name a different yard. The marker is the Halifax dockyard, where that facility sits. No submarine AIS position is used.",
+        "sources": [
+          {
+            "title": "Canadian Patrol Submarine Project interview",
+            "url": "https://www.espritdecorps.ca/eye-on-industry/canadian-patrol-submarine-project-a-transformational-opportunity",
+            "publisher": "Esprit de Corps"
+          },
+          {
+            "title": "Canada's submarine availability",
+            "url": "https://www.shephardmedia.com/news/naval-warfare/canadas-submarine-availability-under-pressure-as-chicoutimi-unlikely-to-return-to-front-line-duties/",
+            "publisher": "Shephard"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=44.65856&mlon=-63.58257#map=16/44.65856/-63.58257",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corner-brook",
+      "name": "HMCS Corner Brook",
+      "pennant": "SSK 878",
+      "shipClass": "Victoria",
+      "role": "Submarine",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": null,
+      "position": {
+        "kind": "homeport",
+        "accuracy": "port",
+        "lat": 48.4296602,
+        "lon": -123.4311483,
+        "place": "CFB Esquimalt dockyard",
+        "timestamp": null,
+        "summary": "No position has been published since Rim of the Pacific 2026. A National Defence story from 19 August 2026 says Corner Brook took part in that exercise off Hawaii with Ottawa, Regina and MV Asterix. The exercise ended on 31 July 2026 and no return notice was found, so she is not left on a Hawaii pin. The marker is the Pacific Fleet home port and is only a default. Public Services and Procurement Canada says her extended docking work period ended in May 2023.",
+        "sources": [
+          {
+            "title": "Canada's contribution to RIMPAC 2026",
+            "url": "https://www.canada.ca/en/department-national-defence/maple-leaf/defence/2026/08/one-team-many-nations-canadas-significant-contribution-to-rimpac-2026.html",
+            "publisher": "National Defence"
+          },
+          {
+            "title": "Victoria-class in-service support",
+            "url": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/repair-refit-maintenance.html",
+            "publisher": "Public Services and Procurement Canada"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=48.42966&mlon=-123.43115#map=16/48.42966/-123.43115",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chicoutimi",
+      "name": "HMCS Chicoutimi",
+      "pennant": "SSK 879",
+      "shipClass": "Victoria",
+      "role": "Submarine",
+      "fleet": "Pacific",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Esquimalt",
+        "lat": 48.4296602,
+        "lon": -123.4311483
+      },
+      "mmsi": null,
+      "position": {
+        "kind": "homeport",
+        "accuracy": "port",
+        "lat": 48.4296602,
+        "lon": -123.4311483,
+        "place": "CFB Esquimalt dockyard",
+        "timestamp": null,
+        "summary": "No pier or dry-dock position was found in a National Defence release. The Victoria-class page still lists Chicoutimi, and the current-ships list assigns her to the Pacific Fleet. A 3 November 2026 report said she had not been on front-line duty for five years. The marker is the Pacific Fleet home port and is only a default.",
+        "sources": [
+          {
+            "title": "Victoria class",
+            "url": "https://www.canada.ca/en/navy/corporate/fleet-units/submarines/victoria-class.html",
+            "publisher": "Royal Canadian Navy"
+          },
+          {
+            "title": "Canada's submarine availability",
+            "url": "https://www.shephardmedia.com/news/naval-warfare/canadas-submarine-availability-under-pressure-as-chicoutimi-unlikely-to-return-to-front-line-duties/",
+            "publisher": "Shephard"
+          },
+          {
+            "title": "OpenStreetMap location of the named place",
+            "url": "https://www.openstreetmap.org/?mlat=48.42966&mlon=-123.43115#map=16/48.42966/-123.43115",
+            "publisher": "OpenStreetMap contributors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oriole",
+      "name": "HMCS Oriole",
+      "pennant": "YAC 3",
+      "shipClass": "Oriole",
+      "role": "Sail training vessel",
+      "fleet": "Atlantic",
+      "commissioned": true,
+      "auxiliary": false,
+      "homePort": {
+        "name": "CFB Halifax",
+        "lat": 44.6585556,
+        "lon": -63.5825738
+      },
+      "mmsi": "316169000",
+      "position": {
+        "kind": "ais",
+        "accuracy": "gps",
+        "lat": 44.37653,
+        "lon": -64.31686,
+        "place": "Moored on the Nova Scotia south shore",
+        "timestamp": "2025-10-20T13:43:00Z",
+        "summary": "AIS for MMSI 316169000, named HMCS ORIOLE, reports the ketch moored at this point on 20 October 2025 after leaving Halifax on 14 October. The coordinates fall at Lunenburg harbour. No later broadcast was on the page read on 23 November 2026. She is the oldest commissioned ship in the navy and has been based at Halifax since 2018.",
+        "sources": [
+          {
+            "title": "MyShipTracking public page for MMSI 316169000",
+            "url": "https://www.myshiptracking.com/vessels/mmsi-316169000",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "HMCS Oriole",
+            "url": "https://www.canada.ca/en/navy/corporate/fleet-units/training-auxiliary-fleet/hmcs-oriole.html",
+            "publisher": "Royal Canadian Navy"
+          },
+          {
+            "title": "HMCS Oriole",
+            "url": "https://en.wikipedia.org/wiki/HMCS_Oriole",
+            "publisher": "Wikipedia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "asterix",
+      "name": "MV Asterix",
+      "pennant": "NRU",
+      "shipClass": "Resolve",
+      "role": "Naval replenishment unit",
+      "fleet": "Support",
+      "commissioned": false,
+      "auxiliary": true,
+      "homePort": null,
+      "mmsi": "316030879",
+      "position": {
+        "kind": "ais",
+        "accuracy": "port",
+        "lat": null,
+        "lon": null,
+        "place": "Moored at Busan, Korea",
+        "timestamp": "2026-11-23T01:15:00Z",
+        "summary": "VesselFinder's public page for IMO 9348182, MMSI 316030879, call sign CFN7327, was read at about 01:15 UTC on 23 November 2026. It said Asterix was moored at Busan, had arrived at 00:31 UTC on 10 November, and that the AIS position had been received about one minute earlier. The page did not print latitude and longitude, so there is no pin. MyShipTracking's last printed coordinates, 35.07823 N, 129.11650 E at 00:08 UTC on 10 November, were still underway and are not plotted over the later in-port report. The November Crowsnest says she refuelled HMCS Regina on the first day of Exercise KEEN SWORD 27.",
+        "sources": [
+          {
+            "title": "VesselFinder page for Asterix, IMO 9348182",
+            "url": "https://www.vesselfinder.com/vessels/details/9348182",
+            "publisher": "VesselFinder"
+          },
+          {
+            "title": "MyShipTracking public page for MMSI 316030879",
+            "url": "https://www.myshiptracking.com/vessels/asterix-mmsi-316030879-imo-9348182",
+            "publisher": "MyShipTracking"
+          },
+          {
+            "title": "The Crowsnest, November 2026",
+            "url": "https://www.canada.ca/en/navy/corporate/navy-news/the-crowsnest/2026/november.html",
+            "publisher": "Royal Canadian Navy"
+          }
+        ]
+      }
+    }
+  ]
+}

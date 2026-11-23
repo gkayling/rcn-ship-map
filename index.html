@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RCN Ship Map</title>
+  <meta name="description" content="Last known positions of commissioned Royal Canadian Navy ships, with a source for each one.">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div>
+        <h1>RCN Ship Map</h1>
+        <p>Commissioned Royal Canadian Navy ships, plus the leased replenishment ship MV Asterix.</p>
+      </div>
+      <div class="refresh" id="checked">Loading positions…</div>
+    </header>
+    <div class="layout">
+      <div class="map-wrap">
+        <div id="map" role="region" aria-label="Map of ship positions"></div>
+        <div class="legend">
+          <div><span class="swatch live"></span> Live AIS, under 24 hours</div>
+          <div><span class="swatch stale"></span> Stale AIS or official report</div>
+          <div><span class="swatch home"></span> Home port only</div>
+        </div>
+      </div>
+      <aside class="panel" id="panel">
+        <button class="sheet-toggle" id="sheet-toggle" type="button" aria-expanded="false">Ship list</button>
+        <div class="controls">
+          <input class="search" id="search" type="search" placeholder="Search ships" aria-label="Search ships" autocomplete="off">
+          <div class="filters" role="group" aria-label="Filter ships">
+            <button type="button" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" data-filter="live" aria-pressed="false">Live</button>
+            <button type="button" data-filter="stale" aria-pressed="false">Stale</button>
+            <button type="button" data-filter="homeport" aria-pressed="false">Home port</button>
+            <button type="button" data-filter="unplotted" aria-pressed="false">Not plotted</button>
+          </div>
+          <select class="sort" id="sort" aria-label="Sort ships">
+            <option value="freshness">Sort by freshness</option>
+            <option value="name">Sort by name</option>
+          </select>
+          <p class="counts" id="counts"></p>
+        </div>
+        <div class="list" id="list"></div>
+        <p class="fine">
+          Warships often switch AIS off. A pin is only drawn when a source gives a place that can be located.
+          Green means an AIS broadcast under 24 hours old. Amber is an older AIS fix or a government report.
+          Slate is the assigned home port, used only when no position was published.
+          Not for navigation.
+          <a href="https://github.com/gkayling/rcn-ship-map#readme">Sources and limits</a>.
+        </p>
+      </aside>
+    </div>
+  </div>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+name: Refresh ship positions
+
+on:
+  schedule:
+    # Every six hours. Warship AIS is intermittent, so a shorter interval
+    # mostly repeats the same open-data queries.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-ship-positions
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Query open AIS feeds
+        run: node scripts/refresh.mjs
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+      - name: Commit newer positions
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ships.json
+          if git diff --cached --quiet; then
+            echo "No change in data/ships.json"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Update ship positions from open AIS feeds"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      - name: Publish the updated data
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
