@@ -6,6 +6,16 @@ Live site: <https://gkayling.github.io/rcn-ship-map/>
 
 The map is not for navigation. Warships often turn AIS off, and a broadcast can be wrong, delayed, or carry junk in the static fields.
 
+## Publish
+
+GitHub publishes this site from `main` with [`.github/workflows/pages.yml`](.github/workflows/pages.yml). The first deploy can run only after Pages is turned on once, which needs repository administration:
+
+1. Open [Settings → Pages](https://github.com/gkayling/rcn-ship-map/settings/pages).
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Re-run [Deploy GitHub Pages](https://github.com/gkayling/rcn-ship-map/actions/workflows/pages.yml).
+
+After that, every push to `main` updates the site. The six-hour refresh commits new positions and starts that same workflow.
+
 ## What is on the map
 
 Twenty-six commissioned ships and one support ship, checked against National Defence and navy pages in November 2026:
