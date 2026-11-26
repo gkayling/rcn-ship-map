@@ -1,20 +1,20 @@
 {
   "seededAt": "2026-11-23T01:20:00Z",
-  "lastCheckedAt": "2026-11-26T01:41:54.853Z",
+  "lastCheckedAt": "2026-11-26T16:37:30.935Z",
   "liveWindowHours": 24,
   "feeds": [
     {
       "id": "digitraffic",
       "ok": true,
       "skipped": false,
-      "heard": 957,
+      "heard": 922,
       "matches": 0
     },
     {
       "id": "kystverket",
       "ok": true,
       "skipped": false,
-      "heard": 3587,
+      "heard": 3824,
       "matches": 0
     },
     {
